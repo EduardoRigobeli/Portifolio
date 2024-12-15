@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font: 'Poppins';
+    --primary-color: #fff;
+    --second-color: rgb(255, 102, 0);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #000;
+    display: flex;
+}
+
+header > img {
+    width: 70px;
+    height: 70px;
+    transition: .6s;
+    border-radius: 50%;
+    margin: 15px 0 15px 20px;
+}
+
+header > img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 7px rgba(255, 102, 0, 0.767);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.nav-bar > .nav-links {
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.nav-links > a {
+    color: var(--primary-color);
+    text-decoration: none;
+    position: relative;
+    transition: .6s ease-in-out;
+}
+
+.nav-links > a:hover {
+    color: var(--second-color);
+}
+
+.nav-links > a::after {
+    content: " ";
+    width: 0%;
+    height: 2px;
+    background-color: var(--second-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .6s ease-in-out;
+}
+
+.nav-links a:hover::after{
+    width: 100%;
+}
