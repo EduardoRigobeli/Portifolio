@@ -7,7 +7,7 @@
 :root {
     --font: 'Poppins';
     --primary-color: #fff;
-    --second-color: #8aaaca;
+    --second-color: #a4bed8;
 }
 
 * {
@@ -135,6 +135,10 @@ header > .link-img > img {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+}
+
+.html, .css, .js, .git, .github {
+    text-decoration: underline;
 }
 
 /* INDEX E TITULO */
