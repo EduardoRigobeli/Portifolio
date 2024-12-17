@@ -4,7 +4,6 @@ main {
     width: 500px;
     margin: auto;
     font-family: 'Poppins';
-    /* background-color: white; */
 }
 
 main h1 {
@@ -57,7 +56,6 @@ input[type="text"] {
 }
 
 .container > .col {
-    /* background-color: white; */
     margin: 10px;
     text-align: center;
 }
