@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor01: #5500FF;
+    --cor02: #D8D8D8;
+    --cor03: rgba(67, 0, 129, 0.815);
+    --cor04: #3d00b8;
+    --cor05: #3000DE;
+    --tranparent: #d8d8d8e5;
+    --sombraP: 1px 2px 5px rgba(0, 0, 0, 0.438);
+}
+
+header {
+    position: absolute;
+    display: block;
+}

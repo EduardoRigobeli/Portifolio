@@ -1,0 +1,62 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Verdana;
+    font-size: 16px;
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+.centro {
+    text-align: center;
+}
+
+.centro img {
+    width: 350px;
+}
+
+.centro h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#oque-faz {
+    background-color: rgb(228, 227, 227);
+}
+
+button {
+    background-color: rgb(163, 163, 163);
+    font-size: 19px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#pagina01 .centro img {
+    width: 200px;
+}
+
+#pagina02 {
+    background-color: rgb(177, 177, 255);
+}
+
+#pagina03 {
+    background-color: rgb(219, 180, 255);
+}
+
+#pagina04 {
+    background-color: rgb(250, 200, 107);
+}

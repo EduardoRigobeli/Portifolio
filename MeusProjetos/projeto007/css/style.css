@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Movies';
+    src: url('../fonts/The Movies.otf') format('opentype');
+}
+@font-face {
+    font-family: 'Become';
+    src: url('../fonts/Become\ PERSONAL\ USE\ ONLY!.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Melody';
+    src: url('../fonts/Melody-Regular.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to left, rgb(0, 0, 255), rgb(255, 0, 0));
+}
+
+header {
+    font-family: 'Movies', Times, serif;
+    text-align: center;
+    margin-left: 310px;
+    margin-right: 310px;
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: normal;
+    padding-top: 20px;
+}
+
+header h1:hover {
+    font-size: 110px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Become';
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+p {
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+#filmes .centro .grid .coluna p {
+    font-family: 'Melody';
+    font-size: 18px;
+}
+
+.centro {
+    width: 850px;
+    margin:auto;
+}
+
+#filmes {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.grid .coluna {
+    box-shadow: 0 0 10px #00000088;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.coluna:hover {
+    width: 80%;
+    margin-left: 30px;
+}
+
+.grid .coluna img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.grid .coluna p {
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
